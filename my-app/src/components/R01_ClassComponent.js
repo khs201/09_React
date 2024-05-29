@@ -22,26 +22,16 @@ class ComponentEx extends Component{
   // return 되는 html형식의 코드(jsx, js + xml)를 화면에 출력하는 함수
   // 화면이 변경되어야 할 시점에 자동으로 호출됨.
   // ** Component를 상속 받은 하위 클래스에 반드시 있어야 하는 함수**
-
   render(){
-
     return(
       <>
-      <h2>클래스형 컴포넌트 입니다</h2>
-      <hr/>
+        <h2>클래스형 컴포넌트 입니다</h2>
+        <hr/>
       </>
     );
   }
-
 }
 
 // ComponentEx 라는 컴포넌트를 내보내겠다는 의미
 // -> 다른 .js 파일에서 해당 컴포넌트를 import해서 사용 가능
 export default ComponentEx;
-
-
-
-
-
-
-
